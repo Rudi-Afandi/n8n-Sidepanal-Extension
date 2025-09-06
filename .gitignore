@@ -25,5 +25,6 @@ web-ext.config.ts
 *.sln
 *.sw?
 
-n8n-sidepanel-chrome
+n8n-sidepanel-chrome.zip
+n8n-sidepanel-firefox.zip
 chrome
