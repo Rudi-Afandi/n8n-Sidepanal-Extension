@@ -1,6 +1,6 @@
 # N8N Side Panel Extension
 
-A Chrome extension side panel for sending text and files to n8n webhooks with OCR capabilities and dark mode support.
+Extension built with XWT side panel for sending text and files to n8n webhooks.
 
 ## Features
 
