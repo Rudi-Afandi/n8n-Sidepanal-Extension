@@ -1,0 +1,24 @@
+@import "tailwindcss";
+/* beri tahu Tailwind bahwa util dari file ini boleh dipakai di @apply */
+@reference "../../assets/tailwind.css";
+
+/* util kamu */
+@layer utilities {
+  .panel-card {
+    @apply bg-background/70 rounded-2xl shadow-sm ring-1 ring-border;
+    /* backdrop-blur pakai CSS biasa (v4 kadang error saat @apply filter) */
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+  .thin-scrollbar {
+    scrollbar-width: thin;
+  }
+  .thin-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  .thin-scrollbar::-webkit-scrollbar-thumb {
+    background: oklch(0.9 0 0);
+    border-radius: 9999px;
+  }
+}
